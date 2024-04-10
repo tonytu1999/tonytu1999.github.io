@@ -1,0 +1,35 @@
+.logo {
+        height: 3rem;
+}
+
+.text-logo {
+    height: 3rem;
+}
+
+.card-hover:hover {
+    box-shadow: 5px 5px 11px #1e57ff6e;
+    transform: translateY(-5%);
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.hero-title {
+    font-family: 'Fredericka the Great', serif;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*
+.instructions {
+    color: var(--bs-info-text-emphasis, inherit);
+    background-color: var(--bs-info-bg-subtle);
+    border-left: 0.25rem solid var(--bs-info-border-subtle);
+}
+*/
+/* For screen sm */
+@media (max-width: 576px) {
+    .logo {
+        height: 2rem;
+    }
+}
