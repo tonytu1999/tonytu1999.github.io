@@ -34,3 +34,7 @@
 .blur{
   -webkit-filter: blur(3px);
 }
+
+input {
+    width: 35px;
+}

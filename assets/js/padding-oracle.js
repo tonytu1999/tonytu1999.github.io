@@ -27,7 +27,7 @@
         input.className = "text-center"
         input.setAttribute("maxlength", "2");
         input.setAttribute("disabled" ,"");
-        input.setAttribute("size", "2");
+        input.setAttribute("size", "1");
         input.classList.add("fw-bold");
         x.appendChild(input);
       }
@@ -155,7 +155,7 @@
         input.className = "text-center"
         input.setAttribute("maxlength", "2");
         input.setAttribute("disabled" ,"");
-        input.setAttribute("size", "2");
+        input.setAttribute("size", "1");
         input.classList.add("fw-bold");
         plaintext_output.appendChild(input);
       }
@@ -170,7 +170,7 @@
         input.className = "text-center"
         input.setAttribute("maxlength", "2");
         input.setAttribute("disabled" ,"");
-        input.setAttribute("size", "2");
+        input.setAttribute("size", "1");
         input.classList.add("fw-bold");
         input.classList.add("fade-in-plaintext");
         xor_output.appendChild(input);
@@ -186,7 +186,7 @@
         input.setAttribute("maxlength", "2");
         //input.setAttribute("disabled" ,"");
         input.setAttribute("oninput" , `update_plaintext(${i})`);
-        input.setAttribute("size", "2");
+        input.setAttribute("size", "1");
         input.classList.add("fw-bold");
         input.classList.add("fade-in");
         IV_output.appendChild(input);
@@ -201,7 +201,7 @@
         input.className = "text-center"
         input.setAttribute("maxlength", "2");
         input.setAttribute("disabled" ,"");
-        input.setAttribute("size", "2");
+        input.setAttribute("size", "1");
         input.classList.add("fw-bold");
         ciphertext_output.appendChild(input);
       }
